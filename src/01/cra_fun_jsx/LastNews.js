@@ -10,7 +10,8 @@ const Li = (props) => {
             {props.infos.txt02}
         </div>
         <div class="thum">
-            <img src={'01/imgs${this.props.infos.img01}'} />
+            <img src={`/01/imgs/${props.infos.img01}`} />
+            
         </div>
         <div class="go_btn">
             <a href="#none">{props.infos.txt03}</a>
