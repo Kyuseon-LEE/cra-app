@@ -77,6 +77,7 @@ const Ul = () => {
 }
 
 const Gnb = () => {
+    return(
     React.createElement(
         'div',
         {
@@ -88,6 +89,7 @@ const Gnb = () => {
             null
         )
     )
+);
 }
 
 export default Gnb;
